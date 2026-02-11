@@ -33,14 +33,14 @@ h1{
     text-align:center;
 }
 .heading{
-    margin-top: 12%;
+    margin-top: 15%;
     text-align: center;
 }
-.intro-text{
+#intro-text{
     width:70%;
     height:auto;
     padding: 5%;
-    margin: 4%; 
+    margin:20px;  
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border: 5px;
     text-align: center;
@@ -48,5 +48,19 @@ h1{
     border-radius: 25%;
 }
 .intro{
-    display: inline;
+     text-align: center;
+    font-size: x-large;
+}
+.socials{
+    word-spacing: 50px;
+    font-size: small;
+    color: black;
+}
+footer{
+    padding: 120px;
+    background-color: rgba(227, 225, 225, 0.7);
+    text-align: center;
+    opacity: 0.9;
+    line-height: 1.6;
+    
 }
