@@ -6,7 +6,7 @@ body{
     color:black;
 }
 header{
-    background-color: rgb(213, 215, 215);
+    background-color: rgb(209, 230, 215);
     position:fixed;
     top:0;
     left:0;
@@ -37,22 +37,16 @@ h1{
     text-align: center;
 }
 .intro-text{
-    width:100%;
+    width:70%;
     height:auto;
-    /* padding: 5%;
-    margin: 10%; */
-     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 5%;
+    margin: 4%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border: 5px;
     text-align: center;
     font-size: x-large;
+    border-radius: 25%;
 }
 .intro{
-    
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2%;
-    align-items: center;
-    padding: auto;
-    margin-top: auto;
-    margin: 10%;
+    display: inline;
 }
